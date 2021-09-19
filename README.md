@@ -1,6 +1,6 @@
 # What is a HackMe?
 
-Thank you for showing your interest in our challenges.  HackMe is set of coding challenges, and in this repository  we will publish our weekly coding challenges exclusive to the MHS Coding Club members. Challenges will touch on many topics such as encryption, algorithms, and optimization. By attempting, or even better, solving the challenges will massively enhance one's coding and problem-solving skills.
+HackMe is set of coding challenges, and in this repository  we will publish our weekly coding challenges exclusive to the MHS Coding Club members. Challenges will touch on many topics such as encryption, algorithms, and optimization. By attempting, or even better, solving the challenges will massively enhance one's coding and problem-solving skills.
 
 ## How to complete a challenge
 
