@@ -1,3 +1,42 @@
 # Solution
+# Challenge 9-18-2021 Solution
+![difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![language](https://badges.aleen42.com/src/javascript.svg)
 
-This will be published once someone solves the challenge
+
+```javascript
+// returns an array of bytes
+function encrypt(str) {
+  let enc = [];
+
+  for (let i = 0; i < str.length; i++) {
+    let result;
+    const raw = str[i].charCodeAt(0);
+
+    if (raw > 100) result = raw - 50;
+    else if (raw > 50) result = raw * 69;
+    else result = raw * 1337;
+
+    enc.push(result);
+  }
+
+  return enc;
+}
+
+// returns a string
+function decrypt(enc) {
+  let dec = '';
+  /* solution */
+  for (let i = 0; i < enc.length; i++) {
+      const modi = enc[i];
+      let result;
+      
+      if (modi < 100) result = modi + 50;
+      else if (modi % 69 == 0) result = modi / 69;
+      else result = modi / 1337;
+      
+      dec += String.fromCharCode(result);
+  }
+  
+  return dec;
+}
+```
