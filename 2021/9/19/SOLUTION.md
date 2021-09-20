@@ -1,5 +1,4 @@
 # Solution
-# Challenge 9-18-2021 Solution
 ![difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![language](https://badges.aleen42.com/src/javascript.svg)
 
 
