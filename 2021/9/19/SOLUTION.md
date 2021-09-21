@@ -1,6 +1,4 @@
 # Solution
-![difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![language](https://badges.aleen42.com/src/javascript.svg)
-
 
 ```javascript
 // returns an array of bytes
@@ -24,6 +22,7 @@ function encrypt(str) {
 // returns a string
 function decrypt(enc) {
   let dec = '';
+  
   /* solution */
   for (let i = 0; i < enc.length; i++) {
       const modi = enc[i];
